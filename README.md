@@ -1,2 +1,4 @@
 # Web-d
-My second github project .
+MY journey to learn more and more about coding......
+
+
