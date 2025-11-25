@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation (No CSS)</title>
+</head>
+<body>
+
+<h2>Password Validation</h2>
+
+<form id="form">
+    <label>Enter Password:</label><br>
+    <input type="password" id="pass" required><br><br>
+
+    <label>Confirm Password:</label><br>
+    <input type="password" id="confirm" required><br><br>
+
+    <p>Password must have:</p>
+    <ul>
+        <li id="len">At least 8 characters</li>
+        <li id="upper">One uppercase letter</li>
+        <li id="lower">One lowercase letter</li>
+        <li id="num">One number</li>
+        <li id="special">One special character (!@#$%^&*)</li>
+    </ul>
+
+    <button type="submit">Submit</button>
+    <p id="msg"></p>
+</form>
+
+</body>
+</html>
